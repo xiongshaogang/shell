@@ -1,0 +1,56 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期二 6月 29 14:31:58 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   smszzy.ctl.new
+Data File:      smszzy.txt
+  Bad File:     smszzy.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PLT_SMSZZY, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+BILL_MONTH                          FIRST     *   ,       CHARACTER            
+USER_NUMBER                          NEXT     *   ,       CHARACTER            
+DATA_SOURCE                          NEXT     *   ,       CHARACTER            
+CHARGE_CODE                          NEXT     *   ,       CHARACTER            
+CHARGE_VALUE                         NEXT     *   ,       CHARACTER            
+RESERVERD1                           NEXT     *   ,       CHARACTER            
+RESERVERD2                           NEXT     *   ,       CHARACTER            
+RESERVERD3                           NEXT     *   ,       CHARACTER            
+
+Record 6: Rejected - Error on table PLT_SMSZZY, column CHARGE_CODE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+
+Table PLT_SMSZZY:
+  5 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 132096 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             6
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on 星期二 6月  29 14:31:58 2010
+Run ended on 星期二 6月  29 14:31:58 2010
+
+Elapsed time was:     00:00:00.24
+CPU time was:         00:00:00.06

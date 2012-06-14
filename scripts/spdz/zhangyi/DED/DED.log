@@ -1,0 +1,62 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期三 6月 11 16:05:44 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   DED.ctl
+Data File:      DED20080606000.571
+  Bad File:     DED20080606000.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DED_RESULT, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REV_HEAD                              1:2     2           CHARACTER            
+SERV_TYPE                            3:12    10           CHARACTER            
+    SQL string for column : "Trim(:serv_type)"
+FEE_TYPE                            13:14     2           CHARACTER            
+BILL_ID                             35:49    15           CHARACTER            
+    SQL string for column : "Trim(:bill_id)"
+SP_CODE                             50:69    20           CHARACTER            
+    SQL string for column : "Trim(:sp_code)"
+OPERATOR_CODE                       70:89    20           CHARACTER            
+    SQL string for column : "Trim(:operator_code)"
+BILL_TYPE                           90:91     2           CHARACTER            
+USE_TIME                           92:105    14           CHARACTER            
+DED_TIME                          106:119    14           CHARACTER            
+REV_FEE                           120:125     6           CHARACTER            
+DONE_CODE                           15:34    20           CHARACTER            
+    SQL string for column : "Trim(:done_code)"
+
+
+Table DED_RESULT:
+  4433 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                   9472 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          4433
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on 星期三 6月  11 16:05:44 2008
+Run ended on 星期三 6月  11 16:05:45 2008
+
+Elapsed time was:     00:00:00.34
+CPU time was:         00:00:00.15

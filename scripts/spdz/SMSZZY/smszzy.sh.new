@@ -1,0 +1,76 @@
+#!/bin/sh
+DB_CONNECT_STRING="aijs/aijs@zjtstjs"
+
+now=`date +%Y%m%d%H%M%S`
+curdate=`date +%Y%m%d`
+curday=`date +%d`
+curmonth=`date +%Y%m`
+
+#得到上上个月的月份，比如本月是200710,那么要得到的是200708
+zeros=`printf "%s" "0"`
+CURRENT_YEAR=`date +%Y`
+LAST_YEAR=`expr $CURRENT_YEAR - 1`
+curmonth=`date +%m`
+if [ $curmonth -gt 2 ]
+ then
+  LAST_MONTH=`expr $curmonth - 2`
+  if [ $LAST_MONTH -lt 10 ]
+   then
+  	MONTH="$CURRENT_YEAR$zeros$LAST_MONTH"
+  else
+    MONTH="$CURRENT_YEAR$LAST_MONTH"
+  fi
+ else
+  LAST_MONTH=12
+  MONTH="$LAST_YEAR$LAST_MONTH"
+fi
+echo $MONTH
+#MONTH="200903"
+
+# clear
+echo - This will take a few minutes, pls wait ...
+
+
+#--------------------------------------------------------------------#
+#echo begin
+
+#ftp -i -n 10.70.13.12  << EOF
+#user zzy zzy0805
+lcd /data1/home/jsusr1/center/scripts/spdz/SMSZZY
+cd /jingfen-system/$MONTH/
+bin
+#get smszzy$MONTH.txt 
+#bye
+#EOF
+#--------------------------------------------------------------------#  
+
+echo "A-OK!"
+mv smszzy$MONTH.txt smszzy.txt 
+
+sqlplus $DB_CONNECT_STRING > /dev/null 2>&1 << SQLEOF
+delete from  plt_smszzy where bill_month=$MONTH;
+commit;
+exit
+SQLEOF
+
+sqlldr aijs/aijs@zjtstjs control=smszzy.ctl.new
+
+
+sqlplus $DB_CONNECT_STRING > /dev/null 2>&1 << SQLEOF
+delete from smszzy_stat where bill_month=$MONTH;
+commit;
+insert into smszzy_stat select $MONTH,count(*) counts,'1','平台当月全部种子短信下发条数' from plt_smszzy where bill_month=$MONTH and data_source=3;
+insert into smszzy_stat select $MONTH,count(*) counts,'2','平台当月全部短信礼包下发次数' from plt_smszzy where bill_month=$MONTH and data_source=5;
+insert into smszzy_stat select $MONTH,sum(sheet_cnt) counts,'3','当月业务代码为125009的所有记录条数' from stat_billing_sp_all_daily where bill_month=$MONTH and operator_code='125009';
+insert into smszzy_stat select $MONTH,count(*) counts,'4','种子短信转发总条数' from plt_smszzy where bill_month=$MONTH and data_source=1;
+insert into smszzy_stat select $MONTH,count(*) counts,'5','平台当月全部种子彩信下发条数' from plt_smszzy where bill_month=$MONTH and data_source=4;
+insert into smszzy_stat select $MONTH,sum(sheet_cnt) counts,'6','当月业务代码为125002的所有记录条数' from stat_billing_sp_all_daily where bill_month=$MONTH and operator_code='125002';
+insert into smszzy_stat select $MONTH,count(*) counts,'7','平台当月全部彩信点播次数' from plt_smszzy where bill_month=$MONTH and data_source=6;
+insert into smszzy_stat select $MONTH,count(*) counts,'8','种子彩信转发总条数' from plt_smszzy where bill_month=$MONTH and data_source=2;
+
+exit
+SQLEOF
+
+echo "A-OK!"
+exit 0
+

@@ -1,0 +1,121 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期五 9月 11 16:02:50 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   test.ctl
+Data File:      DED.txt
+  Bad File:     DED.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DED_FILE, loaded when REV_HEAD = 0X3230(character '20')
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REV_HEAD                              1:2     2           CHARACTER            
+SERV_TYPE                            3:12    10           CHARACTER            
+    SQL string for column : "Trim(:serv_type)"
+FEE_TYPE                            13:14     2           CHARACTER            
+BILL_ID                             35:49    15           CHARACTER            
+    SQL string for column : "Trim(:bill_id)"
+SP_CODE                             50:69    20           CHARACTER            
+    SQL string for column : "Trim(:sp_code)"
+OPERATOR_CODE                       70:89    20           CHARACTER            
+    SQL string for column : "Trim(:operator_code)"
+BILL_TYPE                           90:91     2           CHARACTER            
+USE_TIME                           92:105    14           CHARACTER            
+DED_TIME                          106:119    14           CHARACTER            
+REV_FEE                           120:125     6           CHARACTER            
+    SQL string for column : "Trim(:rev_fee)"
+DONE_CODE                           15:34    20           CHARACTER            
+    SQL string for column : "Trim(:done_code)"
+
+Record 1: Discarded - failed all WHEN clauses.
+Record 16: Discarded - failed all WHEN clauses.
+Record 17: Discarded - failed all WHEN clauses.
+Record 52: Discarded - failed all WHEN clauses.
+Record 53: Discarded - failed all WHEN clauses.
+Record 112: Discarded - failed all WHEN clauses.
+Record 113: Discarded - failed all WHEN clauses.
+Record 115: Discarded - failed all WHEN clauses.
+Record 116: Discarded - failed all WHEN clauses.
+Record 182: Discarded - failed all WHEN clauses.
+Record 183: Discarded - failed all WHEN clauses.
+Record 217: Discarded - failed all WHEN clauses.
+Record 218: Discarded - failed all WHEN clauses.
+Record 282: Discarded - failed all WHEN clauses.
+Record 283: Discarded - failed all WHEN clauses.
+Record 306: Discarded - failed all WHEN clauses.
+Record 307: Discarded - failed all WHEN clauses.
+Record 341: Discarded - failed all WHEN clauses.
+Record 342: Discarded - failed all WHEN clauses.
+Record 392: Discarded - failed all WHEN clauses.
+Record 393: Discarded - failed all WHEN clauses.
+Record 395: Discarded - failed all WHEN clauses.
+Record 396: Discarded - failed all WHEN clauses.
+Record 480: Discarded - failed all WHEN clauses.
+Record 481: Discarded - failed all WHEN clauses.
+Record 519: Discarded - failed all WHEN clauses.
+Record 520: Discarded - failed all WHEN clauses.
+Record 561: Discarded - failed all WHEN clauses.
+Record 562: Discarded - failed all WHEN clauses.
+Record 597: Discarded - failed all WHEN clauses.
+Record 598: Discarded - failed all WHEN clauses.
+Record 640: Discarded - failed all WHEN clauses.
+Record 641: Discarded - failed all WHEN clauses.
+Record 678: Discarded - failed all WHEN clauses.
+Record 679: Discarded - failed all WHEN clauses.
+Record 724: Discarded - failed all WHEN clauses.
+Record 725: Discarded - failed all WHEN clauses.
+Record 760: Discarded - failed all WHEN clauses.
+Record 761: Discarded - failed all WHEN clauses.
+Record 833: Discarded - failed all WHEN clauses.
+Record 834: Discarded - failed all WHEN clauses.
+Record 877: Discarded - failed all WHEN clauses.
+Record 878: Discarded - failed all WHEN clauses.
+Record 933: Discarded - failed all WHEN clauses.
+Record 934: Discarded - failed all WHEN clauses.
+Record 969: Discarded - failed all WHEN clauses.
+Record 970: Discarded - failed all WHEN clauses.
+Record 1008: Discarded - failed all WHEN clauses.
+Record 1009: Discarded - failed all WHEN clauses.
+Record 1049: Discarded - failed all WHEN clauses.
+Record 1050: Discarded - failed all WHEN clauses.
+Record 1143: Discarded - failed all WHEN clauses.
+Record 1144: Discarded - failed all WHEN clauses.
+Record 1281: Discarded - failed all WHEN clauses.
+Record 1282: Discarded - failed all WHEN clauses.
+Record 1307: Discarded - failed all WHEN clauses.
+Record 1308: Discarded - failed all WHEN clauses.
+Record 1361: Discarded - failed all WHEN clauses.
+
+Table DED_FILE:
+  1303 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  58 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                   9472 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          1361
+Total logical records rejected:         0
+Total logical records discarded:       58
+
+Run began on 星期五 9月  11 16:02:50 2009
+Run ended on 星期五 9月  11 16:02:51 2009
+
+Elapsed time was:     00:00:00.27
+CPU time was:         00:00:00.09

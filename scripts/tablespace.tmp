@@ -1,0 +1,26 @@
+
+TABLESPACE_NAME USED (MB)    FREE (MB)    TOTAL (MB)   PER_                                         
+--------------- ------------ ------------ ------------ ----                                         
+AIJS_DR_DATA       1,410,175      328,225    1,738,400   19                                         
+AIJS_DR_IDX          194,218      207,582      401,800   52                                         
+AIJS_STAT             27,863      177,137      205,000   86                                         
+AIJS_STAT_IDX          8,540       81,660       90,200   91                                         
+AIJS_PARA                740        9,890       10,630   93                                         
+SYSTEM                   145        4,105        4,250   97                                         
+AIJS_ACC_DATA            233      204,767      205,000  100                                         
+AIJS_ACC_IDX               2       81,998       82,000  100                                         
+UNDOTBS1                  34       21,216       21,250  100                                         
+AIJS_PARA_IDX             19        8,181        8,200  100                                         
+
+TABLESPACE_NAME USED (MB)    FREE (MB)    TOTAL (MB)   PER_                                         
+--------------- ------------ ------------ ------------ ----                                         
+AIJS_DR_DATA       1,410,175      328,225    1,738,400   19                                         
+AIJS_DR_IDX          194,218      207,582      401,800   52                                         
+AIJS_STAT             27,863      177,137      205,000   86                                         
+AIJS_STAT_IDX          8,540       81,660       90,200   91                                         
+AIJS_PARA                740        9,890       10,630   93                                         
+SYSTEM                   145        4,105        4,250   97                                         
+AIJS_ACC_DATA            233      204,767      205,000  100                                         
+AIJS_ACC_IDX               2       81,998       82,000  100                                         
+UNDOTBS1                  34       21,216       21,250  100                                         
+AIJS_PARA_IDX             19        8,181        8,200  100                                         

@@ -1,0 +1,47 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期日 6月 20 11:23:28 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   SJSS.ctl
+Data File:      SJSS.txt
+  Bad File:     SJSS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SJSS_WAP, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+BILL_ID                             FIRST     *   ,       CHARACTER            
+
+
+Table SJSS_WAP:
+  3976773 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  16512 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:       3976773
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on 星期日 6月  20 11:23:28 2010
+Run ended on 星期日 6月  20 11:27:50 2010
+
+Elapsed time was:     00:04:21.99
+CPU time was:         00:00:19.95

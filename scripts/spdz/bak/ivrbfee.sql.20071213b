@@ -1,0 +1,18 @@
+set line 250;
+set pagesize 5000; 
+
+spool &1;
+
+SELECT '20','04',sp_ecode,0,&2,
+round(sum(rev_fee*b.sp_rate)/100,0)
+FROM FEE_REV_INFO@BUSICS a,bps_add_ivr_sp b
+where to_char(a.op_date,'yyyymm')='&2'
+and a.REV_FEE_MODULE=1
+and a.sp_ecode =b.sp_code
+group by a.sp_ecode,&2
+;
+
+spool off;
+exit;
+/
+

@@ -1,0 +1,57 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期五 6月 4 20:29:13 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   read_ws.ctl
+Data File:      cmreadws.txt
+  Bad File:     cmreadws.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CMREAD_WS, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PROV_CODE                           FIRST     *   ,       CHARACTER            
+TRADEMARK                            NEXT     *   ,       CHARACTER            
+BILL_MONTH                           NEXT     *   ,       CHARACTER            
+DATA_TYPE                            NEXT     *   ,       CHARACTER            
+CP_ID                                NEXT     *   ,       CHARACTER            
+CP_DATA                              NEXT     *   ,       CHARACTER            
+RESERVE1                             NEXT     *   ,       CHARACTER            
+RESERVE2                             NEXT     *   ,       CHARACTER            
+RESERVE3                             NEXT     *   ,       CHARACTER            
+
+Record 4421: Rejected - Error on table CMREAD_WS, column RESERVE1.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+
+Table CMREAD_WS:
+  4420 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 148608 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          4421
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on 星期五 6月  04 20:29:13 2010
+Run ended on 星期五 6月  04 20:29:14 2010
+
+Elapsed time was:     00:00:00.82
+CPU time was:         00:00:00.14

@@ -1,0 +1,7 @@
+#Host = 10.70.11.83
+#newip:10.70.11.77   ----------------
+#User = mcb3tran
+#Passwd = mcB3!571
+
+BFEE file upload to:
+cd /opt/mcb/pcs/backfee/data/outgoing/

@@ -1,0 +1,48 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期三 6月 2 14:10:09 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   hbgj_huawei.ctl
+Data File:      huawei.txt
+  Bad File:     huawei.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table HBGJ_HUAWEI, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+BILL_ID                             FIRST     *   ,       CHARACTER            
+HPLMN2                               NEXT     *   ,       CHARACTER            
+
+
+Table HBGJ_HUAWEI:
+  36180 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  33024 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:         36180
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on 星期三 6月  02 14:10:09 2010
+Run ended on 星期三 6月  02 14:10:12 2010
+
+Elapsed time was:     00:00:02.90
+CPU time was:         00:00:00.29

@@ -1,0 +1,760 @@
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期四 3月 29 04:30:00 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期六 3月 31 04:30:00 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期一 4月 30 04:30:00 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期四 5月 31 04:30:00 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-12541: TNS:no listener
+ORA-06512: at "AIJS.PRC_SP_PAYED_PREDO", line 40
+ORA-06512: at line 1
+
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期四 5月 31 09:38:05 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+he Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期四 5月 31 13:34:42 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期六 6月 30 04:30:00 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期三 8月 1 14:20:13 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期六 9月 1 19:53:53 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.1.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期一 10月 1 12:03:39 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期四 11月 1 12:01:19 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期六 12月 1 12:00:36 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-12535: TNS:operation timed out
+ORA-06512: at "AIJS.PRC_SP_PAYED_PREDO", line 40
+ORA-06512: at line 1
+
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期二 1月 1 12:01:27 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期五 2月 1 12:01:28 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期六 3月 1 12:02:09 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期二 4月 1 12:00:35 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-01401: inserted value too large for column
+ORA-06512: at "AIJS.PROC_HANDLE_EXTRA_ACC_DATA", line 603
+ORA-00942: table or view does not exist
+ORA-02063: 紧接着line（源于TJUSER）
+ORA-02063: preceding 2 lines from REPORT2
+ORA-06512: at "AIJS.PRC_SP_PAYED_PREDO", line 40
+ORA-06512: at line 1
+
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期三 4月 2 10:23:25 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-01401: inserted value too large for column
+ORA-06512: at "AIJS.PROC_HANDLE_EXTRA_ACC_DATA", line 603
+ORA-00942: table or view does not exist
+ORA-02063: 紧接着line（源于TJUSER）
+ORA-02063: preceding 2 lines from REPORT2
+ORA-06512: at "AIJS.PRC_SP_PAYED_PREDO", line 40
+ORA-06512: at line 1
+
+
+SQL> Disconnected from Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期四 5月 1 12:00:23 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期日 6月 1 12:00:46 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期二 7月 1 12:00:49 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期五 8月 1 12:00:37 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期一 9月 1 12:00:51 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期三 10月 1 12:01:30 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期六 11月 1 12:00:38 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期一 12月 1 12:00:50 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期四 1月 1 12:00:51 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期日 2月 1 12:01:04 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-02063: 紧接着 3 lines (起自 REPORT2)
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 40
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期日 3月 1 12:00:46 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-02068: 以下严重错误源于 BCB_AIQRY
+ORA-03113: 通信通道的文件结束
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 40
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期三 4月 1 12:01:26 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-00942: 表或视图不存在
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 40
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期五 5月 1 12:01:26 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-00942: 表或视图不存在
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 40
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期一 6月 1 12:01:04 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-12170: TNS: 连接超时
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 41
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期二 6月 2 09:22:03 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-12170: TNS: 连接超时
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 41
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期三 7月 1 12:01:35 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-00942: 表或视图不存在
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 41
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期六 8月 1 12:01:42 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-00942: 表或视图不存在
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 41
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期三 9月 2 08:00:28 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期五 10月 2 08:01:46 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期一 11月 2 08:01:19 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期三 12月 2 08:01:28 2009
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期六 1月 2 08:02:07 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期二 2月 2 08:01:24 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期二 3月 2 08:00:52 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 9.2.0.6.0 - Production on 星期五 4月 2 08:00:29 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> BEGIN PRC_SP_PAYED_predo('0'); END;
+
+*
+ERROR at line 1:
+ORA-01722: 无效数字
+ORA-06512: 在 "AIJS.PRC_SP_PAYED_PREDO", line 41
+ORA-06512: 在 line 1
+
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options

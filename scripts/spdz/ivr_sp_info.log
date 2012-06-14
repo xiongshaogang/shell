@@ -1,0 +1,70 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期五 5月 28 10:21:37 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   ivr_sp_info.ctl
+Data File:      /data1/home/jsusr1/center/scripts/spdz/SP_rate_info_12586_GSM_20100521.txt
+  Bad File:     SP_rate_info_12586_GSM_20100521.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table IVR_SP_INFO, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ROW_ID                              FIRST     *  WHT      CHARACTER            
+SP_NAME                              NEXT     *  WHT      CHARACTER            
+OPERATOR_CODE                        NEXT     *  WHT      CHARACTER            
+FEE_CODE                             NEXT     *  WHT      CHARACTER            
+OPERATOR_REGION                      NEXT     *  WHT      CHARACTER            
+VALID_DATE                           NEXT     *  WHT      CHARACTER            
+EXPIRE_DATE                          NEXT     *  WHT      CHARACTER            
+TERM_VALID_DATE                      NEXT     *  WHT      CHARACTER            
+TERM_EXPIRE_DATE                     NEXT     *  WHT      CHARACTER            
+OPERATOR_NAME                        NEXT     *  WHT      CHARACTER            
+BILL_TYPE                            NEXT     *  WHT      CHARACTER            
+BILL_SEC                             NEXT     *  WHT      CHARACTER            
+FEE                                  NEXT     *  WHT      CHARACTER            
+RESV1                                NEXT     *  WHT      CHARACTER            
+RESV2                                NEXT     *  WHT      CHARACTER            
+RESV3                                NEXT     *  WHT      CHARACTER            
+RESV4                                NEXT     *  WHT      CHARACTER            
+RESV5                                NEXT     *  WHT      CHARACTER            
+RESV6                                NEXT     *  WHT      CHARACTER            
+SP_ALLOT                             NEXT     *  WHT      CHARACTER            
+SELF_ALLOT                           NEXT     *  WHT      CHARACTER            
+SP_CODE                              NEXT     *  WHT      CHARACTER            
+PLT_REGION                           NEXT     *  WHT      CHARACTER            
+
+
+Table IVR_SP_INFO:
+  119 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 255162 bytes(43 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           119
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on 星期五 5月  28 10:21:37 2010
+Run ended on 星期五 5月  28 10:21:38 2010
+
+Elapsed time was:     00:00:00.18
+CPU time was:         00:00:00.06

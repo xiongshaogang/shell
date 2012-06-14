@@ -1,0 +1,59 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期六 6月 26 14:45:21 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   software.ctl
+Data File:      /data/aijs/wjsms/center/scripts/spdz/SOFTWARE/software.txt
+  Bad File:     software.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PLT_SOFTWARE, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+HPLMN2                              FIRST     *   ,       CHARACTER            
+TRADEMARK                            NEXT     *   ,       CHARACTER            
+BILL_MONTH                           NEXT     *   ,       CHARACTER            
+DATA_SOURCE                          NEXT     *   ,       CHARACTER            
+CHARGE_CODE                          NEXT     *   ,       CHARACTER            
+CHARGE_VALUE                         NEXT     *   ,       CHARACTER            
+RESERVERD1                           NEXT     *   ,       CHARACTER            
+RESERVERD2                           NEXT     *   ,       CHARACTER            
+RESERVERD3                           NEXT     *   ,       CHARACTER            
+
+Record 34: Rejected - Error on table PLT_SOFTWARE, column HPLMN2.
+ORA-12899: value too large for column "AIJS"."PLT_SOFTWARE"."HPLMN2" (actual: 12, maximum: 5)
+
+
+Table PLT_SOFTWARE:
+  33 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 148608 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            34
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on 星期六 6月  26 14:45:21 2010
+Run ended on 星期六 6月  26 14:45:21 2010
+
+Elapsed time was:     00:00:00.25
+CPU time was:         00:00:00.06

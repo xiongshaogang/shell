@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期一 5月 31 10:10:40 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   sms.ctl
+Data File:      /data1/home/jsusr1/center/scripts/spdz/SMSZZY/forwardresult_20100528200609_00010.TXT
+  Bad File:     forwardresult_20100528200609_00010.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SMS_FORWARDRESULT, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SEND_NUM                            FIRST     *   ,       CHARACTER            
+RECEIVE_NUM                          NEXT     *   ,       CHARACTER            
+SEND_TYPE                            NEXT     *   ,       CHARACTER            
+SEND_DATE                            NEXT     *   ,       CHARACTER            
+CP_CODE                              NEXT     *   ,       CHARACTER            
+CP_NAME                              NEXT     *   ,       CHARACTER            
+    SQL string for column : "Trim(:CP_NAME)"
+
+
+Table SMS_FORWARDRESULT:
+  32196 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  99072 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:         32196
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on 星期一 5月  31 10:10:40 2010
+Run ended on 星期一 5月  31 10:10:43 2010
+
+Elapsed time was:     00:00:03.83
+CPU time was:         00:00:00.54

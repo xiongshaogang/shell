@@ -1,0 +1,14 @@
+load data
+infile 'smsnews.txt'
+append into table plt_smsnews 
+Fields terminated by ','
+(
+bill_month,
+user_number,
+data_source,
+charge_code,
+charge_value,
+reserverd1,
+reserverd2,
+reserverd3
+)

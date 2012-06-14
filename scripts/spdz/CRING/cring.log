@@ -1,0 +1,59 @@
+
+SQL*Loader: Release 9.2.0.6.0 - Production on 星期三 6月 2 14:08:24 2010
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   cring.ctl
+Data File:      cring.txt
+  Bad File:     cring.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table ALL_CRING, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+BILL_MONTH                          FIRST     *   ,       CHARACTER            
+HPLMN2                               NEXT     *   ,       CHARACTER            
+MUSIC_TOTAL                          NEXT     *   ,       CHARACTER            
+MUSIC_SP                             NEXT     *   ,       CHARACTER            
+MUSIC_SELF                           NEXT     *   ,       CHARACTER            
+DOWN_TOTAL                           NEXT     *   ,       CHARACTER            
+DOWN_SP                              NEXT     *   ,       CHARACTER            
+DOWN_SELF                            NEXT     *   ,       CHARACTER            
+ALL_TOTAL                            NEXT     *   ,       CHARACTER            
+ALL_SP                               NEXT     *   ,       CHARACTER            
+ALL_SELF                             NEXT     *   ,       CHARACTER            
+
+Record 12: Rejected - Error on table ALL_CRING, column BILL_MONTH.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+
+Table ALL_CRING:
+  11 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 181632 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            12
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on 星期三 6月  02 14:08:24 2010
+Run ended on 星期三 6月  02 14:08:24 2010
+
+Elapsed time was:     00:00:00.27
+CPU time was:         00:00:00.06

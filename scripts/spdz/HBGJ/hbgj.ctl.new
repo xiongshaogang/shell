@@ -1,0 +1,14 @@
+load data
+infile 'hbgj.txt'
+append into table plt_hbgj 
+Fields terminated by ','
+(
+bill_month,
+user_number,
+data_source,
+charge_code,
+charge_value,
+reserverd1,
+reserverd2,
+reserverd3
+)

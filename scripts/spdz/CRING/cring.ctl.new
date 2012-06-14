@@ -1,0 +1,15 @@
+load data
+infile 'cring.txt'
+append into table plt_cring 
+Fields terminated by ','
+(
+hplmn2,
+trademark,
+bill_month,
+data_source,
+charge_code,
+charge_value,
+reserverd1,
+reserverd2,
+reserverd3
+)
