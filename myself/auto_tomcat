@@ -1,0 +1,67 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          tomcat 
+# Required-Start:    $remote_fs $network
+# Required-Stop:     $remote_fs $network
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: The tomcat Java Application Server
+### END INIT INFO
+
+
+
+
+
+CATALINA_HOME=/home/mas/eie/opt/apache-tomcat8011
+
+tomcat_start()
+{
+  echo "tomcat start now"
+  #su mas -c  /home/mas/eie/opt/apache-tomcat8011/bin/startup.sh
+  su -c "$CATALINA_HOME/bin/startup.sh" mas
+}
+
+tomcat_stop()
+{
+  echo "tomcat stop now"
+  #su -c "$CATALINA_HOME/bin/bin/shutdown.sh" mas
+  ps -ef |  grep $CATALINA_HOME | grep -v grep | awk '{ print $2 }'| xargs kill -9
+}
+
+tomcat_check()
+{
+  echo "tomcat check status"
+  ps -ef |  grep $CATALINA_HOME | grep -v grep
+}
+
+tomcat_help()
+{
+echo "================================================"
+echo "please input Num                               ="
+echo "=Simple employee salary managerment sysetem    ="
+echo "=tomcat check #Check tomcat run                ="
+echo "=tomcat start #Start tomcat                    ="
+echo "=tomcat stop  #stop tomcat                     ="
+echo "================================================"
+}
+
+tomcat_run()
+{
+case $1 in
+check)
+tomcat_check
+;;
+start) 
+tomcat_start
+;;
+stop) 
+tomcat_stop
+;;
+*)
+tomcat_help
+;;
+esac
+}
+
+tomcat_run $1
+
