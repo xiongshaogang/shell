@@ -1,0 +1,25 @@
+mkdir -p /home/apache-tomcat8080/webapps/jmjwt/picture/420800 
+mkdir -p /home/apache-tomcat8080/webapps/jmjwt/picture/420801 
+mkdir -p /home/apache-tomcat8080/webapps/jmjwt/picture/420802 
+mkdir -p /home/apache-tomcat8080/webapps/jmjwt/picture/420804 
+mkdir -p /home/apache-tomcat8080/webapps/jmjwt/picture/420821
+mkdir -p /home/apache-tomcat8080/webapps/jmjwt/picture/420822
+mkdir -p /home/apache-tomcat8080/webapps/jmjwt/picture/420881
+mkdir -p /home/apache-tomcat8080/webapps/jmjwt/picture/JYSG_Picture
+
+touch  /home/apache-tomcat8080/webapps/jmjwt/picture/420800/pic123.jpg
+touch  /home/apache-tomcat8080/webapps/jmjwt/picture/420801/pic223.jpg 
+touch  /home/apache-tomcat8080/webapps/jmjwt/picture/420802/pic323.jpg 
+touch  /home/apache-tomcat8080/webapps/jmjwt/picture/420804/pic423.jpg 
+touch  /home/apache-tomcat8080/webapps/jmjwt/picture/420821/pic523.jpg
+touch  /home/apache-tomcat8080/webapps/jmjwt/picture/420822/pic623.jpg
+touch  /home/apache-tomcat8080/webapps/jmjwt/picture/420881/pic723.jpg
+touch  /home/apache-tomcat8080/webapps/jmjwt/picture/JYSG_Picture/pic823.jpg
+
+rm -rf /home/u420800/4*
+rm -rf /home/u420801/4*
+rm -rf /home/u420802/4*
+rm -rf /home/u420804/4*
+rm -rf /home/u420821/4*
+rm -rf /home/u420822/4*
+rm -rf /home/u420881/4*
